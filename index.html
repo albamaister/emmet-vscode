@@ -1,0 +1,133 @@
+<!-- div#rojo -->
+<div id="rojo"></div>
+
+<!-- div.cuadrado -->
+<div class="cuadrado"></div>
+
+<!-- div.cuadrado.cuadrado-fila -->
+<div class="cuadrado cuadrado-fila"></div>
+
+<!-- div.cuadrado.cuadrado-fila#rojo -->
+<div class="cuadrado cuadrado-fila" id="rojo"></div>
+
+<!-- div{Contenido} -->
+<div>Content</div>
+
+<!-- div.cuadrado.cuadrado-fila#rojo{Contenido} -->
+<div class="cuadrado cuadrado-fila" id="rojo">Content</div>
+
+<!-- a[href="#"] --> || a
+<a href="#"></a>
+
+<!-- a[href="#" title="title"] -->
+<a href="#" title="title"></a>
+
+<!-- a[href="#" tiele="link" target="_balck"].cuadrado.cuadrado-fila#rojo{Content} -->
+<a href="#" tiele="link" target="_balck" class="cuadrado cuadrado-fila" id="rojo">Content</a>
+
+<!-- header+maain -->
+<header></header>
+<maain></maain>
+
+<!-- headre>h1 -->
+<headre>
+    <h1></h1>
+</headre>
+
+<!-- header>h1>a -->
+<header>
+    <h1><a href=""></a></h1>
+</header>
+
+<!-- (header>h1)+main -->
+<header>
+    <h1></h1>
+</header>
+<main></main>
+
+<!-- (header>h1+nav)+(main>section+h2)+footer -->
+<header>
+    <h1></h1>
+    <nav></nav>
+</header>
+<main>
+    <section></section>
+    <h2></h2>
+</main>
+<footer></footer>
+
+<!-- ul>li*5 -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!-- ul>li{$}*5 -->
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+</ul>
+
+
+<!-- (header>(h1>a)+(nav>ul>li*5))+main+footer -->
+<header>
+    <h1><a href=""></a></h1>
+    <nav>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+</header>
+<main></main>
+<footer></footer>
+
+
+
+<!-- (header>(h1>a[href="#" title+"logo"]{Logo})+(nav>ul>(li>a[href="#" title="Item $"]{item $})*5)+(ul.rrss>li>a[href="#" title="RRSS $" target="_blank"]{RRSS $}))+(main>(section>(hgroup>h2{Titular}+h3{SUbtitular})>p{Lorem})*2)+(footer>ul*2)+div.cookies -->
+<header>
+    <h1><a href="#" title+="">Logo</a></h1>
+    <nav>
+        <ul>
+            <li><a href="#" title="Item 1">item 1</a></li>
+            <li><a href="#" title="Item 2">item 2</a></li>
+            <li><a href="#" title="Item 3">item 3</a></li>
+            <li><a href="#" title="Item 4">item 4</a></li>
+            <li><a href="#" title="Item 5">item 5</a></li>
+        </ul>
+    </nav>
+    <ul class="rrss">
+        <li><a href="#" title="RRSS 1" target="_blank">RRSS 1</a></li>
+    </ul>
+</header>
+<main>
+    <section>
+        <hgroup>
+            <h2>Titular</h2>
+            <h3>SUbtitular</h3>
+        </hgroup>
+        <p>Lorem</p>
+    </section>
+    <section>
+        <hgroup>
+            <h2>Titular</h2>
+            <h3>SUbtitular</h3>
+        </hgroup>
+        <p>Lorem</p>
+    </section>
+</main>
+<footer>
+    <ul></ul>
+    <ul></ul>
+</footer>
+<div class="cookies"></div>
+
